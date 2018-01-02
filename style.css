@@ -1,0 +1,23 @@
+body {
+    display: flex;
+}
+
+.column {
+    flex: 0 0 50%;
+}
+
+img {
+    width: 100%;
+}
+
+.target {
+    margin: 1rem;
+    background-color: #eee;
+    padding: 1rem;
+    font-family: Arial;
+    text-align: center;
+    font-weight: bold;
+    cursor: pointer;
+    border: 1px solid #ddd;
+    -webkit-user-select: none;
+}
